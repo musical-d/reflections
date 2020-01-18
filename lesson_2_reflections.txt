@@ -22,10 +22,23 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+- Branches can be used to try out alternative features to be added to the code in small sections
+- You don't need to re-save all of the code
+- You can (hopefully) merge your changes back into the main code relatively easily
+- If a change doesn't work out as planned you can just dispense with it and not worry further
+
 How do the diagrams help you visualize the branch structure?
+
+- The diagrams help to see where the end of a branch is and what checkouts can be made or merged back along the branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+- Two branches being merged together will bring all of the commits from both branches in line
+- Any lines of the files that haven't changed will remain unchanged
+- Any lines that have changed will be compared for the later updatee
+- Once the branches are merged, the old branch that has been merged into master is no longer used/needed
+- This is represented in the diagram by the old branch being brought into master signifying one version of the files
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
