@@ -42,3 +42,9 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+- Git can automatically detect when simple merges can occur for example when new lines are added
+- However git can't detect which is the correct change when multiple changes to a line take place
+- The pros of the git merge command are that it handles simple changes in a methodical way really well
+- It has more difficulty with 'bigger' changes but that isn't impossible to sort out manually
+- Git also has a good way of highlighting the 'difficult' changes so that they can be resolved fairly easily
